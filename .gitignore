@@ -21,3 +21,4 @@ override.tf.json
 
 # Include override files you do want to add to version control
 !example_override.tf
+.DS_Store
