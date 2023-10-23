@@ -1,0 +1,23 @@
+# Terraform .gitignore
+
+# Terraform CLI directories
+.terraform/
+
+# Local .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude .tfvars files that include sensitive information
+*.tfvars
+
+# Exclude override files as they are usually used to re-configure variables
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do want to add to version control
+!example_override.tf
